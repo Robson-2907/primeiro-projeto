@@ -8,10 +8,10 @@ function toggleMode() {
     //subistituir a imagem
     if(html.classList.contains('light')) {
       //se tiver light mode, adicionar a imagem light
-      img.setAttribute("src", "/assets/robson-light.jpg")
+      img.setAttribute("src", "./assets/robson-light.jpg")
     } else {
       //se tiver light mode, manter a imagem normal
-      img.setAttribute("src", "/assets/robson-dark.jpg")  
+      img.setAttribute("src", "./assets/robson-dark.jpg")  
     }
 }
   
